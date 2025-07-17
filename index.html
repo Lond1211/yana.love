@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Для Яны 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Фоновая музыка -->
+  <audio id="bg-music" loop>
+    <source src="assets/music/your-love.mp3" type="audio/mpeg" />
+    Ваш браузер не поддерживает воспроизведение аудио.
+  </audio>
+
+  <!-- Летающие сердечки -->
+  <div class="hearts-container"></div>
+
+  <!-- Приветствие -->
+  <section class="intro">
+    <h1>Яна,</h1>
+    <p>Этот сайт — как моё сердце. И сейчас ты в нём…</p>
+    <button id="start-btn">Включить музыку и начать</button>
+  </section>
+
+  <!-- Основной текст -->
+  <section class="message hidden" id="message-section">
+    <h2>О тебе…</h2>
+    <p>
+      Бывает, в жизни встречаешь человека — и всё меняется.
+      <br><br>
+      Улыбка становится искренней. День — ярче. Жизнь — глубже.
+      <br><br>
+      Яна, с тех пор как ты появилась, я будто проснулся.
+      <br><br>
+      С тобой рядом я становлюсь лучше. Ты — моя опора, вдохновение, свет.
+      <br><br>
+      И если бы нужно было выбрать кого-то заново — я бы выбрал тебя. Снова и снова.
+    </p>
+    <button id="play-game">Поймать сердечко 💘</button>
+  </section>
+
+  <!-- Игра -->
+  <section class="game hidden" id="game-section">
+    <p class="instruction">Поймай сердечко!</p>
+    <div class="game-area">
+      <img src="assets/images/heart.png" alt="Heart" id="heart" />
+    </div>
+  </section>
+
+  <!-- После поимки -->
+  <section class="final-message hidden" id="final-section">
+    <h2>Ты поймала моё сердце 💖</h2>
+    <p>
+      Но правда в том, что оно уже давно было твоим…<br><br>
+      Я люблю тебя.<br>
+      Не до завтра. А навсегда.
+    </p>
+    <div class="big-heart">💗</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
